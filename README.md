@@ -12,5 +12,6 @@
 ## 数据结构与算法分析
 
 ## 数据库
+- [MySQL：MySQL基础命令总结](https://github.com/luoxn28/ThinkInTechnology/issues/2)
 
 ## 杂谈
