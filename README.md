@@ -8,6 +8,7 @@
 
 ## Linux
 - [网络编程：深入理解Linux基本套接字编程](https://github.com/luoxn28/ThinkInTechnology/issues/1)
+- [Linux多线程：Linux多线程学习总结](https://github.com/luoxn28/ThinkInTechnology/issues/5)
 
 ## 数据结构与算法分析
 - [数据结构：经典排序算法总结](https://github.com/luoxn28/ThinkInTechnology/issues/3)
