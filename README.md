@@ -5,6 +5,7 @@
 ## C/C++
 
 ## Java
+- [Java虚拟机：Java自动内存管理机制](https://github.com/luoxn28/ThinkInTechnology/issues/6)
 
 ## Linux
 - [网络编程：深入理解Linux基本套接字编程](https://github.com/luoxn28/ThinkInTechnology/issues/1)
