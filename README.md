@@ -5,6 +5,7 @@
 ## C/C++
 
 ## Java
+- [Java并发：Java并发基础](https://github.com/luoxn28/ThinkInTechnology/issues/7)
 - [Java虚拟机：Java自动内存管理机制](https://github.com/luoxn28/ThinkInTechnology/issues/6)
 
 ## Linux
