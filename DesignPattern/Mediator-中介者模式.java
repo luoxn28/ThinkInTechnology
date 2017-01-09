@@ -46,7 +46,7 @@ public class Colleague2 {
 
 // --------------------- test code
 
-public static void main(String[] args) throws CloneNotSupportedException {
+public static void main(String[] args) {
     Mediator mediator = new Mediator();
 
     mediator.setColleague1(new Colleague1());
