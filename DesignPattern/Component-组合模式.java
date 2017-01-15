@@ -24,12 +24,6 @@ public class Composite extends Component {
     }
 }
 
-public class Leaf extends Component {
-    public void doSomething() {
-        System.out.println("Leaf doSomething...");
-    }
-}
-
 // --------------------- 树叶构件
 public class Leaf extends Component {
     public void doSomething() {
