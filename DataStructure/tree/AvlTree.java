@@ -16,6 +16,10 @@ public class AvlTree<T extends Comparable> {
         this.root = insert(data, this.root);
     }
 
+    public void remove(T data) {
+        this.root = remove(data, this.root);
+    }
+
     public int height() {
         return height(this.root);
     }
@@ -68,6 +72,54 @@ public class AvlTree<T extends Comparable> {
         return node;
     }
 
+    private AvlNode<T> remove(T data, AvlNode<T> node) {
+        if (node == null) {
+            return null;
+        }
+
+        int compareResult = data.compareTo(node.data);
+        if (compareResult < 0) {
+            node.left = remove(data, node.left);
+        } else if (compareResult > 0) {
+            node.right = remove(data, node.right);
+        } else {
+            if ((node.left != null) && (node.right != null)) {
+                node.data =  findMin(node.right).data;
+                node.right = remove(node.data, node.right);
+            }
+            else if (node.left != null){
+                node = node.left;
+            } else {
+                node = node.right;
+            }
+        }
+
+        return balance(node);
+    }
+
+    private AvlNode<T> balance(AvlNode<T> node) {
+        if (node == null) {
+            return node;
+        }
+
+        if ((height(node.left) - height(node.right)) == 2) {
+            if (height(node.left.left) >= height(node.left.right)) {
+                node = rightRotate(node);
+            } else {
+                node = doubleRightRotate(node);
+            }
+        } else if ((height(node.right) - height(node.left)) == 2) {
+            if (height(node.right.right) >= height(node.right.left)) {
+                node = leftRotate(node);
+            } else {
+                node = doubleLeftRotate(node);
+            }
+        }
+
+        node.height = max(height(node.left), height(node.right)) + 1;
+        return node;
+    }
+
     private int max(int x, int y) {
         return (x > y) ? x : y;
     }
@@ -93,6 +145,16 @@ public class AvlTree<T extends Comparable> {
         } else {
             return true;
         }
+    }
+
+    private AvlNode<T> findMin(AvlNode<T> node) {
+        if (node != null) {
+            while (node.left != null) {
+                node = node.left;
+            }
+        }
+
+        return node;
     }
 
     private void printNode(AvlNode<T> node) {
