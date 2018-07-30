@@ -1,29 +1,24 @@
-个人知识仓库 学习&总结&分享
+> [ThinkInTechnology](https://github.com/luoxn28/ThinkInTechnology) 个人知识仓库
+>> `记录 & 分享 & 交流`
 
-个人博客：[http://www.cnblogs.com/luoxn28](http://www.cnblogs.com/luoxn28)
-个人网站：[http://intrack.top/](http://intrack.top/)
+## 目录云
 
-## C/C++
+[`Java`](#java)
+[`jvm`](#jvm)
+[`Java多线程`](#java多线程)
 
-## Java
-- [Java并发：Java并发基础](https://github.com/luoxn28/ThinkInTechnology/issues/7)
-- [Java虚拟机：Java自动内存管理机制](https://github.com/luoxn28/ThinkInTechnology/issues/6)
+### 技术网站分享
 
-## Linux
-- [网络编程：深入理解Linux基本套接字编程](https://github.com/luoxn28/ThinkInTechnology/issues/1)
-- [Linux多线程：Linux多线程学习总结](https://github.com/luoxn28/ThinkInTechnology/issues/5)
+- [芋道源码](http://www.iocoder.cn/) - 纯源码解析博客
 
-## 数据结构与算法分析
-- [数据结构：经典排序算法总结](https://github.com/luoxn28/ThinkInTechnology/issues/3)
+## 技能树
 
-## 计算机网络
-- [计算机网络：BGP协议](https://github.com/luoxn28/ThinkInTechnology/issues/8)
+### java
 
-## 数据库
-- [MySQL：MySQL基础命令总结](https://github.com/luoxn28/ThinkInTechnology/issues/2)
+### jvm
 
-## 读书笔记
-- [读书笔记：《Effective Java》](https://github.com/luoxn28/ThinkInTechnology/issues/9)
+### java多线程
 
-## 杂谈
-- [转载：如何准备阿里社招面试，顺谈 Java 程序员学习中各阶段的建议](https://github.com/luoxn28/ThinkInTechnology/issues/4)
+## License
+
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) Copyright (C) Apache Software Foundation
